@@ -1,4 +1,7 @@
+#!  /usr/bin/env node
 import inquirer from "inquirer";
+// Printing a Wellcome message
+console.log("\n\tWellcome To \'SolveQ\' - CLI Simple Calculator\n");
 // Asking Qustions for Users through inquirer
 let answers = await inquirer.prompt([
     { message: "Enter First Number", type: "number", name: "firstNumber" },
